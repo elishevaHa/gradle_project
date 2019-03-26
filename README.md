@@ -1,7 +1,17 @@
-# junit5-jupiter-starter-gradle
+# gradle project for junit tests
 
-The `junit5-jupiter-starter-gradle` project demonstrates how to run tests based on JUnit
-Jupiter using [Gradle's native JUnit Platform support], Gradle's Groovy DSL
-and code and tests written in Java.
+* download gradle from https://gradle.org/
 
-[Gradle's native JUnit Platform support]: https://docs.gradle.org/current/userguide/java_testing.html#using_junit5
+* install gradle
+	https://gradle.org/install/
+	
+* in java project run *gradle init*
+
+* **configure build.gradle:**
+  - add plugin:'java'
+  - add dependencty for junit
+  - add useJUnitPlatform() in test
+		
+* make sure your proxy configured in gradle-wrapper.proprties
+
+* run *gradle build*
