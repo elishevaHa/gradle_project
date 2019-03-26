@@ -1,4 +1,4 @@
-package com.microfocus.secondPackge;
+package com.microfocus.secondPackage;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

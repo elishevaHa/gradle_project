@@ -1,4 +1,5 @@
-package com.microfocus.secondPackge;
+package com.microfocus.firstPackage;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.DisplayName;
@@ -6,20 +7,22 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-public class Test2 {
-	@Test
-	public void helloWorldTest() {
+class Test1 {
 
-      String str = "World";
- 
-      assertEquals(str, "World");
+	@Test
+	void foo1() {
+		int a=2;
+		assertEquals(2,a );
 	}
 	@Test
-	public void test2HelloWorldTest() {
-
-		String str = "World";
-
-		assertEquals(str, "World");
+	void foo2() {
+		int a=1;
+		assertEquals(1,a );
 	}
+	@Test
+	void foo3() {
+		int a=3;
+		assertEquals(3,a );
+	}
+
 }
-
